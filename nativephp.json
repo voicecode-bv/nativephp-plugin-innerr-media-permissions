@@ -1,0 +1,33 @@
+{
+    "namespace": "MediaPermissions",
+
+    "bridge_functions": [],
+
+    "android": {
+        "min_version": 26,
+        "permissions": [],
+        "dependencies": {
+            "implementation": []
+        },
+        "activities": [],
+        "services": [],
+        "receivers": [],
+        "providers": []
+    },
+
+    "ios": {
+        "min_version": "15.0",
+        "info_plist": {
+            "NSCameraUsageDescription": "To upload media to your circles, Innerr requires camera access.",
+            "NSMicrophoneUsageDescription": "To make new recordings, Innerr requires microphone access to record video with audio.",
+            "NSPhotoLibraryUsageDescription": "Before you can post media to your circles, Innerr requires photo library access to select media.",
+            "NSPhotoLibraryAddUsageDescription": "This app needs permission to save photos and videos to your library."
+        },
+        "dependencies": {
+            "swift_packages": [],
+            "pods": []
+        }
+    },
+
+    "events": []
+}

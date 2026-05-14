@@ -1,10 +1,10 @@
 <?php
 
-namespace Innerr\MediaPermissions;
+namespace Voicecode\InnerrMediaPermissions;
 
 use Illuminate\Support\ServiceProvider;
 
-class MediaPermissionsServiceProvider extends ServiceProvider
+class InnerrMediaPermissionsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {

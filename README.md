@@ -10,20 +10,20 @@ Add this package as a path repository in the consuming app's `composer.json`:
 
 ```json
 "repositories": [
-    { "type": "path", "url": "./packages/innerr/plugin-media-permissions" }
+    { "type": "path", "url": "./packages/voicecode-bv/nativephp-plugin-innerr-media-permissions" }
 ]
 ```
 
 Then install and register:
 
 ```bash
-composer require innerr/plugin-media-permissions
+composer require voicecode-bv/nativephp-plugin-innerr-media-permissions
 
 # First time only: publish the plugins provider
 php artisan vendor:publish --tag=nativephp-plugins-provider
 
 # Register the plugin
-php artisan native:plugin:register innerr/plugin-media-permissions
+php artisan native:plugin:register voicecode-bv/nativephp-plugin-innerr-media-permissions
 
 # Verify
 php artisan native:plugin:list

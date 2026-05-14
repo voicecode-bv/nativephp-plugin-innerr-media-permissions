@@ -1,6 +1,6 @@
 {
-    "name": "innerr/plugin-media-permissions",
-    "description": "NativePHP plugin that contributes iOS Info.plist usage descriptions for camera, microphone, and photo library access.",
+    "name": "voicecode-bv/nativephp-plugin-innerr-media-permissions",
+    "description": "NativePHP plugin that contributes iOS Info.plist usage descriptions for camera, microphone, and photo library access (Innerr).",
     "type": "nativephp-plugin",
     "version": "1.0.0",
     "license": "MIT",
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Innerr\\MediaPermissions\\": "src/"
+            "Voicecode\\InnerrMediaPermissions\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Innerr\\MediaPermissions\\MediaPermissionsServiceProvider"
+                "Voicecode\\InnerrMediaPermissions\\InnerrMediaPermissionsServiceProvider"
             ]
         },
         "nativephp": {
